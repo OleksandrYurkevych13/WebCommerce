@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"> -->
+    <!-- <link rel="stylesheet" href="https://classless.de/classless.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Shop/css/profile.css">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="/Shop/js/validation.js" defer></script>
+
+    <title>Profile</title>
+</head>
+<body>
+    <nav>
+        <a class="navbar-brand" href="/Shop/Html/index.html"><img src="/Shop/logos/logotype-main1.png" alt=""></a>
+    </nav>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    
+    <form action="/Shop/php/process-signup.php" method="post" id="signup" novalidate>
+        <h1>Sign up</h1>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label for="password_confirmation">Repeat password</label>
+            <input type="password" name="password_confirmation" id="password_confirmation">
+        </div>
+        <p>Back to <a href="/Shop/php/login.php">Login</a></p>
+        <button type="submit">Sign up</button>
+    </form>
+    <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
+</body>
+</html>
