@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Gruppo&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.navbar-brand{
+    font-family: "Lucida Handwriting", serif; 
+  font-weight:bolder; 
+  font-size: 24px; 
+   }
+   a{
+    color: black;
+    text-align: center;
+   }
+   .navbar-brand img{
+    height: 4rem !important;
+   
+   }
+   .card{
+    border: solid 1px black;
+   }
+   .navbar {
+      background:  radial-gradient(circle, #f12711, #f5af19);
+      background-size: 600% 600%;
+      animation: gradientAnimation 10s linear  infinite alternate;
+    }
+
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% ;
+      }
+      50%{
+        background-position: 50%;
+      }
+      100% {
+        background-position: 100% ;
+      }
+    }
+    body {
+        
+
+      background: url(/Shop/Images/backgorund-main.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+      }
+      
+     
+
+    .content {
+      filter: brightness(100%);
+      transition: filter 0.5s ease;
+    }
+    .card-body{
+        background-image: linear-gradient(to bottom right, #f12711, #f5af19);
+    }
+
+  .presentation{
+    font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+  }
+
+
+
+.animator{
+  transition: transform 0.3s ease;
+}
+
+.animator:hover{
+  transform: scale(1.1);
+}
+
+.animator:not(:hover){
+  transform: scale(1);
+}
