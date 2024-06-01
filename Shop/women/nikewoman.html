@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+  <link rel="stylesheet" href="/Shop/css/nike.css">
+  
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+  <a class="navbar-brand" href="/Shop/Html/nike.html"><img src="/Shop/logos/logotype-main1.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav ml-auto ">
+      <li class="nav-item">
+        <a class="nav-link" href="/Shop/men/mennike.html">Men</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Shop/Html/nike.html">Nike</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Shop/sale/nikesale.html">Sale</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Special product</a>
+      </li>
+      
+    </ul>
+  </div>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      
+ <!-- shopcart icon -->
+      <li class="nav-item ">
+        <a class="nav-link" href="#" id="cart-icon" data-quantity="0"><svg xmlns="http://www.w3.org/2000/svg" width="24"  height="24" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+        </svg></a>
+      </li>
+    
+<div class="cart">
+  <h2 class="cart-title">Your Cart</h2>
+  <div class="cart-content">
+    
+  </div>
+  <div class="total">
+    <div class="total-title">Total</div>
+    <div class="total-price">$0</div>
+
+  </div>
+  <form action="/Shop/php/checkout.php" method="post">
+    
+    <form action="/Shop/php/checkout.php" method="post">
+      <input type="hidden" name="item-title[]" value="Nike Air Max Plus">
+    <input type="hidden" name="item-price[]" value="350">
+    <input type="hidden" name="item-quantity[]" value="1">
+    <input type="hidden" name="productImg[]" value="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/43c0ca18-8475-41f9-8d8e-f812e3aea2ce/buty-air-max-plus-LWzXNs.png">
+    
+    <button class="btn-buy">Pay now</button>
+  </form>
+</form>
+  <i class='bx bx-x' id="close-cart"></i>
+</div>
+   
+      <li class="nav-item">
+        <a class="nav-link" href="/Shop/Html/profile.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+        </svg></a>
+      </li>
+      
+    
+    
+   
+  </div>
+  
+</nav>
+
+  
+
+<div class="container mt-md-5 pt-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/43c0ca18-8475-41f9-8d8e-f812e3aea2ce/buty-air-max-plus-LWzXNs.png" class="cartImg" alt="Товар 1">
+
+          <h5 class="card-title">Nike Air Max Plus</h5>
+          <p class="card-text">$350</p>
+          
+          <a href="/Shop/Html/nikeproduct1.html" class="btn btn-md btn-dark">More </a>
+          <i class="bx bx-shopping-bag add-cart"></i>
+          <button class="btn btn-md btn-outline-danger disabled" >32</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="card">
+        
+        <div class="card-body">
+         <img src="/Shop/productsnike/klapki-meskie-calm-6k5MlP.png" class="cartImg" alt="Товар 3"> 
+          <h5 class="card-title">Nike Calm</h5>
+          <p class="card-text"> $70</p>
+          <a href="/Shop/Html/nikeproduct3.html" class="btn btn-md btn-dark">More</a>
+          <i class='bx bx-shopping-bag add-cart'></i>
+          <button class="btn btn-md btn-outline-danger disabled" >38</button>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-md-4 ">
+      <div class="card">
+        <div class="card-body">
+          <img src="/Shop/productsnike/buty-do-biegania-po-asfalcie-zoom-fly-5-4FXXh7.jpg" class="cartImg" alt="Товар 4">
+
+          <h5 class="card-title">Nike Zoom Fly 5</h5>
+          <p class="card-text">$170 </p>
+          <a href="/Shop/Html/nikeproduct6.html" class="btn btn-md btn-dark">More</a>
+          <i class='bx bx-shopping-bag add-cart'></i>
+          <button class="btn btn-md btn-outline-danger disabled size" >42</button>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="/Shop/js/main.js"></script>
+
+<script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
+</body>
+</html>
